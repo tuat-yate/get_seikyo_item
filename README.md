@@ -25,7 +25,7 @@ pip3 install requests
     git clone https://github.com/tuat-yate/get_seikyo_item
     ```
     ### for zip install
-    ページ上部の`Code`の`Download ZIP`からどうぞ。
+    [メインページ](https://github.com/tuat-yate/get_seikyo_item)上部の`Code`の`Download ZIP`からどうぞ。
 
 
 2. 学食データのダウンロード
