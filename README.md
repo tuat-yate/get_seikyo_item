@@ -22,7 +22,7 @@ pip3 install requests
 1. このリポジトリをコピーする。
     ### for git user
     ```
-    git clone https://github.com/tuat_yate/get_seikyo_item
+    git clone https://github.com/tuat-yate/get_seikyo_item
     ```
     ### for zip install
     ページ上部の`Code`の`Download ZIP`からどうぞ。
