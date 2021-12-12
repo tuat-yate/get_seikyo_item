@@ -34,3 +34,7 @@ pip3 install requests
         python get_seikyo_item.py
         ```
         を実行します。
+        
+## Licence
+このリポジトリはMITライセンスで提供されています。
+東京農工大学の学生がレポート等で利用する場合は[引用情報](https://docs.google.com/document/d/1yo0YidOwGtKGDvlT7qRfkEAtj1czMCUe9kYoj8akp24/edit?usp=sharing)を参考にして参考文献に記述してください。
