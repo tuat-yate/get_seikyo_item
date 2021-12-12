@@ -24,9 +24,8 @@ class Completer:
             return None
 
 #商品idから各情報を出力
-item_base_url = "https://gakushoku.coop"
 def get_item(link):
-    html = requests.get(item_base_url+link)
+    html = requests.get(link)
     soup = BeautifulSoup(html.content, "html.parser")
     if(soup.find("h2")):
         #各データを取得
@@ -66,6 +65,8 @@ if(__name__=='__main__'):
   readline.set_completer(completer.complete)
   print("入力ファイルを選択(Tabで候補を表示)：")
   html_name = input(">>> ")
+  if(html_name==""):
+      html_name="条件から検索 _ 学食どっとコープ.html"
 
   with open(html_name) as f:
     base_html=f.read()
