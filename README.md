@@ -1,4 +1,6 @@
 # GET_SEIKYO_ITEM
+![image](img/overview.png)
+![exe](img/exe.gif)
 生協の学食メニューの各情報をCSV形式で取得します。
 取得する情報は次のとおりです。
 ```
